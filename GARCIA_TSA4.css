@@ -1,44 +1,47 @@
-.image{
+.image {
     width: 9vw;
     padding-right: 2000px;
 }
-body{
+
+body {
     background-image: url("https://t4.ftcdn.net/jpg/04/16/08/83/360_F_416088383_VYKbwdq0S4vqGwQJkZ8ZIRNDWITvjvP4.jpg");
     background-repeat: no-repeat;
     background-size: 2550px;
     text-align: center;
 }
-h1{
+
+h1 {
     color: green;
     font-size: 80px;
     font-weight: bold;
     font-family: "Sedan SC", serif
 }
 
-p1{
+p1 {
     color: black;
     font-size: 50px;
     font-family: "Roboto Slab", serif;
 }
 
-.p2{
+.p2 {
     color: black;
     font-size: 30px;
-    font-family:"Roboto Slab", serif;
+    font-family: "Roboto Slab", serif;
     padding-left: 1300px;
     font-style: italic;
     font-weight: bold;
 }
-.p3{
+
+.p3 {
     color: black;
     font-size: 30px;
-    font-family:"Roboto Slab", serif;
+    font-family: "Roboto Slab", serif;
     padding-left: 1180px;
     font-style: italic;
     font-weight: bold;
 }
 
-.fc1{
+.fc1 {
     color: maroon;
     font-weight: bold;
     text-decoration: underline;
