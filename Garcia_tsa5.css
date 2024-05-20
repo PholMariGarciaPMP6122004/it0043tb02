@@ -1,0 +1,224 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    border: 2px rgb(8, 20, 4) solid;
+    border-radius: 2%;
+    padding: 2rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card {
+    width: 400px;
+    height: 800px;
+    background-image: url(https://w0.peakpx.com/wallpaper/108/679/HD-wallpaper-minimalist-pokeball-phone-phone-cool-for-phones-abstract-pokeball-thumbnail.jpg);
+    background-size: 396px;
+    text-align: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    align-items: center;
+    border: 2px rgb(8, 20, 4) solid;
+    border-radius: 5%;
+    display: inline-block;
+    margin-left: 5rem;
+    overflow: hidden;
+}
+
+.card2 {
+    width: 400px;
+    height: 800px;
+    background-image: url(https://w0.peakpx.com/wallpaper/108/679/HD-wallpaper-minimalist-pokeball-phone-phone-cool-for-phones-abstract-pokeball-thumbnail.jpg);
+    background-size: 396px;
+    text-align: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    align-items: center;
+    border: 2px rgb(8, 20, 4) solid;
+    border-radius: 5%;
+    display: inline-block;
+    margin-left: 5rem;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.image {
+    width: 300px;
+    height: 360px;
+    border-style: inherit;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.name {
+    padding-top: 100px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.fire {
+    display: inline-block;
+    background-color: red;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.ice {
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.grass {
+    display: inline-block;
+    background-color: darkgreen;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.dark {
+    display: inline-block;
+    background-color: saddlebrown;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.ghost {
+    display: inline-block;
+    background-color: purple;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.poison {
+    display: inline-block;
+    background-color: blueviolet;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.fairy {
+    display: inline-block;
+    background-color: plum;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.dragon {
+    display: inline-block;
+    background-color: mediumslateblue;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.psychic {
+    display: inline-block;
+    background-color: hotpink;
+    border-radius: 10%;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.h4set {
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    align-content: center;
+}
+
+.AP {
+    background-color: lightcoral;
+    display: inline-block;
+    border: 2px rgb(8, 20, 4) solid;
+    border-radius: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.RP {
+    background-color: mediumorchid;
+    display: inline-block;
+    border: 2px rgb(8, 20, 4) solid;
+    border-radius: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.bgcolor1 {
+    height: 800px;
+    background-color: mediumslateblue;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.bgcolor2 {
+    height: 800px;
+    background-color: plum;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.bgcolor3 {
+    height: 800px;
+    background-color: darkgreen;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.bgcolor4 {
+    height: 800px;
+    background-color: purple;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.bgcolor5 {
+    height: 800px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.bgcolor6 {
+    height: 800px;
+    background-color: hotpink;
+    box-shadow: 5px 5px 1px rgb(56, 51, 51);
+}
+
+.AP:hover {
+    background-color: lightgrey;
+}
+
+.RP:hover {
+    background-color: lightgrey;
+}
