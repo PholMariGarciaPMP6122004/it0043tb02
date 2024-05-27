@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://images7.alphacoders.com/133/1339105.png);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+.pokemon {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #081404;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.pokemon img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.pokemon-name {
+    display: none;
+}
+
+.snorlax {
+    background-color: steelblue;
+}
+
+.snorlax:hover {
+    background-image: url('https://www.hindustantimes.com/ht-img/img/2024/01/25/1600x900/Snorlax_1706207121325_1706207139057.jpg');
+}
+
+.bulbasaur {
+    background-color: seagreen;
+}
+
+.bulbasaur:hover {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8fd3924d-6abf-4791-b198-550b99c4d508/ddz5o25-8eb74dc3-3b49-4a34-91ea-1a2de717d757.jpg/v1/fill/w_1024,h_695,q_75,strp/plant_bulbasaur_by_threeleaves_ddz5o25-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njk1IiwicGF0aCI6IlwvZlwvOGZkMzkyNGQtNmFiZi00NzkxLWIxOTgtNTUwYjk5YzRkNTA4XC9kZHo1bzI1LThlYjc0ZGMzLTNiNDktNGEzNC05MWVhLTFhMmRlNzE3ZDc1Ny5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19._-ZgV6WW9DcT5YEM_XMjvz_00y2VEFSBs8UuQSlDzYc');
+}
+
+.jigglypuff {
+    background-color: lightpink;
+}
+
+.jigglypuff:hover {
+    background-image: url('https://i.pinimg.com/736x/78/8f/4b/788f4be19c78ecb9059cbca1940d03c0.jpg');
+}
+
+.rattata {
+    background-color: mediumpurple;
+}
+
+.rattata:hover {
+    background-image: url('https://cdn.donmai.us/sample/17/24/__rattata_pokemon_drawn_by_kamijima871__sample-172463e4b18a40c2e7b9f8fb984b3beb.jpg');
+}
+
+.venonat {
+    background-color: violet;
+}
+
+.venonat:hover {
+    background-image: url('https://64.media.tumblr.com/e5726b620fd1d39d6d255b6aac5a1ba5/6d9ae5997c32adc8-74/s1280x1920/677e4e07d658018482dcc1e6288152a082cd573d.png');
+}
+
+.bellsprout {
+    background-color: gold;
+}
+
+.bellsprout:hover {
+    background-image: url('https://64.media.tumblr.com/a87ec603ff2b1ea00ca7e59076ec4f6d/a5b6777613c65610-1e/s1280x1920/bb7beaeffcf0a675800c5780b08d41895c2cc4f2.png');
+}
+
+.caterpie {
+    background-color: olivedrab;
+}
+
+.caterpie:hover {
+    background-image: url('https://64.media.tumblr.com/e860c4eecffb3cd7783bfbdf0944494d/44570672316ffd8c-15/s1280x1920/befc3b027d864b075078ef81aa1533a87e9494dd.png');
+}
+
+.dratini {
+    background-color: darkturquoise;
+}
+
+.dratini:hover {
+    background-image: url('https://i.pinimg.com/originals/96/7a/e7/967ae7aded36bbdb52d5010e8e6006d1.jpg');
+}
+
+.pidgey {
+    background-color: darkgoldenrod;
+}
+
+.pidgey:hover {
+    background-image: url('https://cdn.donmai.us/original/c7/b0/c7b066d48702cbba6045797d1d7875f6.jpg');
+}
+
+.charmander {
+    background-color: darkorange;
+}
+
+.charmander:hover {
+    background-image: url('https://w0.peakpx.com/wallpaper/188/607/HD-wallpaper-pokemon-charmander-charmander-pokemon-anime-artist-artwork-digital-art-behance.jpg');
+}
+
+.eevee {
+    background-color: goldenrod;
+}
+
+.eevee:hover {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8b9da38d-e59b-4ec7-805a-50b2417b833d/dg1nyy1-e37c7fcd-6f4a-48e6-8acc-779a21c4a4ca.png/v1/fill/w_894,h_894,q_70,strp/eevee_gazing_at_the_beautiful_sky_by_rayeina35_dg1nyy1-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzhiOWRhMzhkLWU1OWItNGVjNy04MDVhLTUwYjI0MTdiODMzZFwvZGcxbnl5MS1lMzdjN2ZjZC02ZjRhLTQ4ZTYtOGFjYy03NzlhMjFjNGE0Y2EucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.SGb5tMMUwsog17ovYeT2xmIUI3JuM5wE4jTWiGvLsVs');
+}
+
+.pikachu {
+    background-color: yellow;
+}
+
+.pikachu:hover {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2cc63c39-c53b-4b37-bf1f-a3a3810ad232/dg6bpau-3bbec0d3-a658-404c-a4a2-e28fe72084a4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJjYzYzYzM5LWM1M2ItNGIzNy1iZjFmLWEzYTM4MTBhZDIzMlwvZGc2YnBhdS0zYmJlYzBkMy1hNjU4LTQwNGMtYTRhMi1lMjhmZTcyMDg0YTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kjGk05z_VBTtReVHlKiT8PVEg1Tr3lS5M7JzTCCa4yM');
+}
+
+.pokemon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1200px) {
+    .pokemon {
+        width: 22%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pokemon {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pokemon img {
+        width: 40%;
+    }
+
+    .pokemon .pokemon-name {
+        display: inline-block;
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 100%;
+        font-size: 300%;
+        text-align: center;
+        padding-left: 10px;
+        text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        color: white;
+    }
+
+
+    .pokemon::after {
+        content: '';
+        display: inline-block;
+        background: url('https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-HD-Image.png') no-repeat center center;
+        background-size: contain;
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pokemon {
+        width: 100%;
+        display: block;
+    }
+
+    .pokemon img {
+        width: 100%;
+    }
+
+    .pokemon::after {
+        content: '';
+        display: none;
+    }
+
+    .pokemon-name {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
