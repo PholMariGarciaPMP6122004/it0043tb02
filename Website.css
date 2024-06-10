@@ -54,17 +54,20 @@ main {
     gap: 1em;
 }
 
-.content, .sidebar {
+.content,
+.sidebar {
     padding: 1em;
     background-color: dimgray;
     transition: box-shadow 0.3s ease;
 }
 
-.content:hover, .sidebar:hover {
+.content:hover,
+.sidebar:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.content img, .sidebar img {
+.content img,
+.sidebar img {
     width: 100%;
     height: auto;
     margin-top: 1em;
@@ -76,7 +79,8 @@ main {
     gap: 1em;
 }
 
-.episodes, .gallery {
+.episodes,
+.gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
@@ -186,5 +190,3 @@ main {
         height: auto;
     }
 }
-}
-
