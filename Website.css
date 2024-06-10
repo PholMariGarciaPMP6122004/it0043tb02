@@ -1,198 +1,233 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: gold;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: gold;
+}
+
+.episodeGal {
+	width: 100%;
+	display: block;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 1em;
-    color: gold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	padding: 1em;
+	color: gold;
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1em;
+	list-style: none;
+	display: flex;
+	gap: 1em;
 }
 
 .nav-links li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-    color: darkorchid;
+	color: darkorchid;
 }
 
 .logo {
-    font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 header {
-    text-align: center;
-    padding: 2em;
-    background-color: dimgray;
-    color: gold;
+	text-align: center;
+	padding: 2em;
+	background-color: dimgray;
+	color: gold;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
-    padding: 1em;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1em;
+	padding: 1em;
 }
 
 .main-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1em;
 }
 
 .pleiades .grid-item img {
-    width: 500px;
-    height: 600px;
-    object-fit: cover;
+	width: 500px;
+	height: 600px;
+	object-fit: cover;
 }
 
 .content,
 .sidebar,
 .grid-item,
 .grid-item2 {
-    padding: 1em;
-    background-color: dimgray;
-    transition: box-shadow 0.3s ease;
-    text-align: center;
+	padding: 1em;
+	background-color: dimgray;
+	transition: box-shadow 0.3s ease;
+	text-align: center;
+}
 
+.gallery-item {
+	width: 100%;
+	height: auto;
+}
+
+.grid-item img {
+	width: 250px;
+	height: 500px;
+	object-fit: cover;
+	margin-top: 0.5em;
 }
 
 .content img,
 .sidebar img,
-.grid-item img,
 .grid-item2 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin-top: 0.5em;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	margin-top: 0.5em;
 }
 
 .additional-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1em;
+}
+
+.section-title {
+	width: 100%;
+	text-align: center;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
-    margin-top: 2em;
-    text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1em;
+	margin-top: 2em;
+	text-align: center;
 }
 
 .gallery-item {
-    flex: 0 0 calc(33.33% - 1em);
-    max-width: calc(33.33% - 1em);
-    padding: 1em;
-    background-color: dimgray;
-    transition: box-shadow 0.3s ease;
-    text-align: center;
+	width: 40%;
+	padding: 1em;
+	background-color: dimgray;
+	transition: box-shadow 0.3s ease;
+	text-align: center;
 }
 
 .gallery-item img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-top: 0.5em;
-    text-align: center;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 5px;
+	margin-top: 0.5em;
+	text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+	.additional-content {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-item img {
+		width: 100%;
+		height: 700px;
+		object-fit: cover;
+		margin-top: 0.5em;
+	}
+
+	.gallery-item {
+		width: 100%;
+	}
+}
 
 .episodes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1em;
-    margin-top: 2em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 1em;
+	margin-top: 2em;
 }
 
 .episode-item {
-    flex: 0 0 calc(33.33% - 1em);
-    max-width: calc(33.33% - 1em);
-    padding: 1em;
-    background-color: dimgray;
-    transition: box-shadow 0.3s ease;
-    text-align: center;
+	flex: 0 0 calc(33.33% - 1em);
+	max-width: calc(33.33% - 1em);
+	padding: 1em;
+	background-color: dimgray;
+	transition: box-shadow 0.3s ease;
+	text-align: center;
 }
 
 .episode-item img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-top: 0.5em;
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 5px;
+	margin-top: 0.5em;
 }
 
 @media screen and (min-width: 768px) {
-    .main-content {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.main-content {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
-    .additional-content {
-        grid-template-columns: repeat(3, 1fr);
-    }
+	.additional-content {
+		grid-template-columns: repeat(3, 1fr);
+	}
 
-    .episodes,
-    .gallery {
-        justify-content: space-between;
-    }
+	.episodes,
+	.gallery {
+		justify-content: space-between;
+	}
 
-    .episode-item,
-    .gallery-item {
-        flex: 0 0 calc(48% - 1em);
-        max-width: calc(48% - 1em);
-    }
+	.episode-item {
+		flex: 0 0 calc(48% - 1em);
+		width: 100%;
+	}
 
-    .episode-item img,
-    .gallery-item img {
-        height: 200px;
-    }
+	.episode-item img {
+		height: 200px;
+		width: 100%;
+	}
 }
 
-
 @media screen and (min-width: 1200px) {
-    .main-content {
-        grid-template-columns: 2fr 1fr;
-    }
+	.main-content {
+		grid-template-columns: 2fr 1fr;
+	}
 
-    .additional-content {
-        grid-template-columns: repeat(4, 1fr);
-    }
+	.additional-content {
+		grid-template-columns: repeat(4, 1fr);
+	}
 
-    .episodes {
-        grid-template-columns: repeat(4, 1fr);
-    }
+	.episodes {
+		grid-template-columns: repeat(4, 1fr);
+	}
 
-    .gallery {
-        justify-content: space-between;
-    }
+	.gallery {
+		justify-content: space-between;
+	}
 
-    .episode-item,
-    .gallery-item {
-        flex: 0 0 calc(23% - 1em);
-        max-width: calc(23% - 1em);
-    }
+	.episode-item {
+		flex: 0 0 calc(23% - 1em);
+		max-width: calc(23% - 1em);
+	}
 
-    .episode-item img,
-    .gallery-item img {
-        height: 250px;
-    }
+	.episode-item img {
+		height: 250px;
+	}
+
+	.gallery-item {
+		width: 100%;
+	}
 }
