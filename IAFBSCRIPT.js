@@ -61,4 +61,3 @@ document.addEventListener('DOMContentLoaded', function() {
         [...directionButtons, ...justifyButtons, ...alignButtons].forEach(button => button.classList.remove('active'));
     }
 });
-
