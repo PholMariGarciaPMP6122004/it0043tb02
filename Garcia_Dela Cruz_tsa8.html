@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Controller</title>
+    <link rel="stylesheet" href="IAFB.css">
+</head>
+<body>
+    <div class="flex-container" id="flexContainer">
+        <div class="flex-item" id="box1">1</div>
+        <div class="flex-item" id="box2">2</div>
+        <div class="flex-item" id="box3">3</div>
+    </div>
+    <div class="controls">
+        <button id="resetButton">Reset Flexbox</button>
+        <div class="control-group">
+            <label>Gap</label>
+            <input type="number" id="gapInput" value="0">
+        </div>
+        <div class="control-group">
+            <label>Flex Direction</label>
+            <button class="flex-direction" data-direction="row">Row</button>
+            <button class="flex-direction" data-direction="column">Column</button>
+        </div>
+        <div class="control-group">
+            <label>Justify Content</label>
+            <button class="justify-content" data-justify="flex-start">Start</button>
+            <button class="justify-content" data-justify="center">Center</button>
+            <button class="justify-content" data-justify="flex-end">End</button>
+            <button class="justify-content" data-justify="space-between">Space Between</button>
+            <button class="justify-content" data-justify="space-around">Space Around</button>
+            <button class="justify-content" data-justify="space-evenly">Space Evenly</button>
+        </div>
+        <div class="control-group">
+            <label>Align Items</label>
+            <button class="align-items" data-align="flex-start">Start</button>
+            <button class="align-items" data-align="center">Center</button>
+            <button class="align-items" data-align="flex-end">End</button>
+        </div>
+        <div class="control-group">
+            <label>Flex Grow</label>
+            <div>
+                <label>Box 1</label>
+                <input type="number" id="box1Grow" class="flex-grow-input" value="0" min="0" step="1">
+            </div>
+            <div>
+                <label>Box 2</label>
+                <input type="number" id="box2Grow" class="flex-grow-input" value="0" min="0" step="1">
+            </div>
+            <div>
+                <label>Box 3</label>
+                <input type="number" id="box3Grow" class="flex-grow-input" value="0" min="0" step="1">
+            </div>
+        </div>          
+    </div>
+    <script src="IAFBSCRIPT.js"></script>
+</body>
+</html>
+
+
+
