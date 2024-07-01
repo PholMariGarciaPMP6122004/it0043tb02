@@ -101,9 +101,10 @@ body {
     font-size: 24px;
     color: black;
     border-radius: 5px;
-    transition: transform 0.3s;
+    transition: transform 1s, flex-grow 1s; 
 }
 
 .flex-item:hover {
     transform: scale(1.1);
 }
+
