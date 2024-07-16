@@ -1,0 +1,839 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-weight: bolder;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover {
+    color: #ff6347;
+    transform: scale(1.1);
+}
+
+.home {
+    background: url('https://static.vecteezy.com/system/resources/previews/016/006/015/original/aesthetic-neon-ring-background-free-vector.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.intro-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about {
+    background: url('https://w0.peakpx.com/wallpaper/651/834/HD-wallpaper-it-s-all-about-me-wall-neon-light-others.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.about-content {
+    margin-left: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: left;
+    transition: transform 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-content:hover {
+    transform: translateX(-10px);
+    background-color: deeppink;
+}
+
+.portfolio {
+    background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnNsamR5czU4ODM0NWwyM2YxYWdoYzU4ZG9xYXZvM2VseDI4cHpzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j1tK8Puk8RspqBP2cs/giphy.webp') no-repeat center center/cover;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    transition: transform 0.3s, background-color 0.3s;
+    color: cyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    background-color: deeppink;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.testimonial {
+    background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWcyb2hwY2kybDNhNnB0cGdiczB4ZDNnYjhzdGI5MGRhM3EwNGtkdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Q34Q46x7bUUKJfbn0s/giphy.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.testimonial-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial-item {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    transition: transform 0.3s, background-color 0.3s;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+    background-color: deeppink;
+}
+
+.social {
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20210911/pngtree-neon-tropical-leaf-landscape-background-image_848759.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-item {
+    margin: 0 10px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-link:hover {
+    color: #ff6347;
+    transform: scale(1.1);
+}
+
+.contact {
+    background: url('https://wallpapers.com/images/hd/neon-mountain-sunset-landscape-j43yhqneeqycw2i4.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.contact-form {
+    background: indianred;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 48%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form .form-group textarea {
+    width: 100%;
+    resize: none;
+}
+
+.contact-form .form-group:last-of-type {
+    display: block;
+}
+
+.contact-form .submit-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #555;
+}
+
+.about-detail {
+    background: url('https://w0.peakpx.com/wallpaper/651/834/HD-wallpaper-it-s-all-about-me-wall-neon-light-others.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-detail .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.about-1 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; 
+}
+
+.about-detail p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.hobbies-career {
+    padding: 0;
+    text-align: center;
+}
+
+.hobbies,
+.career {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies {
+    background: url('https://i.pinimg.com/originals/e5/37/7f/e5377fdf17d752ed11182499852ead82.jpg') no-repeat center center/cover;
+}
+
+.career {
+    background: url('https://wallpapercave.com/wp/wp8828674.jpg') no-repeat center center/cover;
+}
+
+.hobbies h3,
+.career h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hobbies-images,
+.career-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hobby-item1,
+.career-item {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKJczPzbYGr9lfgHRJvG34lT78GpXAbCtvIkQsHHG1CcHUuYdIIw1rnyGCWwJ3U2JdBP4&usqp=CAU);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.hobby-item2,
+.career-item {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/736x/22/1c/8e/221c8e898aeee45d6ec6cca3a0fed99e.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.hobby-item3,
+.career-item {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://media.karousell.com/media/photos/products/2022/6/26/anime_girl_figure_fateremram_a_1656216639_f08e5c04_progressive.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.hobby-item4,
+.career-item {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://img.freepik.com/premium-photo/vector-abstract-musical-background-music-wallpaper-color-abstract-instruments_1000408-557.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.career-item1 {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.career-item2 {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?b=1&s=612x612&w=0&k=20&c=B1O_UHuhlV34GJnQxQgxGDqmtBKMJkMf_FGssI1WEVE=);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.career-item3 {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://wallpapers.com/images/featured/coding-avfu043y2kv52wha.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.career-item4 {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/334/909/large_2x/desktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.hobby-item1:hover,
+.hobby-item2:hover,
+.hobby-item3:hover,
+.hobby-item4:hover,
+.career-item1:hover,
+.career-item2:hover,
+.career-item3:hover,
+.career-item4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(8, 8, 8, 8.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgba(255, 99, 71, 0.7);
+}
+
+.hobbies-text,
+.career-text {
+    max-width: 600px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.tsa-section {
+    position: relative;
+    background-image: url('https://t4.ftcdn.net/jpg/05/87/17/41/360_F_587174109_nBntQDnyIC6YfXY6kRgw9Pf7yp4Ow6JB.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.tsa-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.tsa-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.output-img {
+    margin-top: 1em;
+    position: relative;
+    z-index: 2;
+}
+
+.output-img img {
+    width: 1000px;
+    height: auto;
+    border-radius: 0%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.output-img img:hover {
+    background-color: #ff6347;
+    transform: scale(1.1);
+}
+
+.tsa-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    z-index: 2;
+}
+
+.TSA-link {
+    text-decoration: none;
+    color: cyan;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.TSA-link:hover {
+    color: #ff6347;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .intro-text h1 {
+        font-size: 28px;
+    }
+
+    .intro-text p {
+        font-size: 16px;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .testimonial-item {
+        width: 100%;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .intro-text h1 {
+        font-size: 24px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .testimonial-item {
+        width: 100%;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-detail .overlay {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .about-detail h2 {
+        font-size: 28px;
+    }
+
+    .about-detail p {
+        font-size: 16px;
+    }
+
+    .about-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hobbies-career {
+        flex-direction: column;
+    }
+
+    .hobbies, .career {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hobbies-images, .career-images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hobby-item1, .hobby-item2, .hobby-item3, .hobby-item4,
+    .career-item1, .career-item2, .career-item3, .career-item4 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .hobbies-text, .career-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .about-detail h2 {
+        font-size: 24px;
+    }
+
+    .about-detail p {
+        font-size: 14px;
+    }
+
+    .hobbies-text, .career-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tsa-section h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .output-img {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .output-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .output-img p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .tsa-section h2 {
+        font-size: 24px;
+    }
+
+    .output-img p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tsa-section h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .output-img {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .output-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .output-img p {
+        font-size: 16px;
+    }
+
+    .output-img a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .tsa-section h2 {
+        font-size: 24px;
+    }
+
+    .output-img p, .output-img a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 780px) {
+    .about-detail .overlay {
+        padding: 10px;
+    }
+
+    .about-1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hobby-item1,
+    .hobby-item2,
+    .hobby-item3,
+    .hobby-item4,
+    .career-item1,
+    .career-item2,
+    .career-item3,
+    .career-item4 {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-detail .overlay {
+        padding: 10px;
+    }
+
+    .about-1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hobby-item1,
+    .hobby-item2,
+    .hobby-item3,
+    .hobby-item4,
+    .career-item1,
+    .career-item2,
+    .career-item3,
+    .career-item4 {
+        height: 150px;
+        width: 150px;
+    }
+}
